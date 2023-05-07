@@ -1,0 +1,10 @@
+.remove_arrows {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+  appearance: textfield;
+}
+.remove_arrows[type="number"]::-webkit-inner-spin-button,
+.remove_arrows[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
